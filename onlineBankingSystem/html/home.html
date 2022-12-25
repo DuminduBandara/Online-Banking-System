@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Trust Bank Home</title>
+  <link rel="shortcut icon" href="../images/logo/blue-logo-02.jpg">
+  <link rel="stylesheet" href="../css/common-style.css">
+  <link rel="stylesheet" href="../css/home.css">
+
+  <!-- fontawesome link for add icons in web page  -->
+  <script src="https://kit.fontawesome.com/4e05476d91.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <main class="container" id="m-cont">
+    <nav class="details-nav">
+      <ul class="d-nav details-list">
+        <li><a href="#"><i class="fa-solid fa-location-dot"></i><span>Royal JP, MS, Kandy</span></a></li>
+        <li><a href="#"><i class="fa-solid fa-phone"></i><span>+94 112356234</span></a></li>
+        <li><a href="#"><i class="fa-solid fa-envelope"></i><span>localTrust@info.lk</span></a></li>
+      </ul>
+      <ul class="d-nav apps-list">
+        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+        <li><a href="https://lk.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+      </ul>
+    </nav>
+    <!-- header -->
+    <header class="top-header" id="header-top">
+      <div class="t-h-st">
+        <div class="logo-content">
+          <a href="../html/home.html" class="logo-link"><img src="../images/logo/blue-logo-02.jpg" style="color:#fff;" alt="#" class="logo-img"></a>
+        </div>
+        <div class="search-content">
+          <div class="s-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+          <div class="s-bar">
+            <input type="search" name="search" id="search-input" placeholder="Search here">
+            <button type="button"  id="close-btn" onclick="clearContent()"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+        </div>
+      </div>
+      <ul class="t-nav-list">
+        <li class="t-nav-item"><a href="../html/home.html" class="t-nav-link active-page">Home</a></li>
+
+        <!-- dropdown list -->
+        <li class="t-nav-item">
+          <a href="#" class="t-nav-link prod" id="pro"><span>Products</span><i class="fa-solid fa-chevron-down"></i></a>
+          <ul class="dropdown-list product" id="product">
+            <li><a href="#credit-select" class="drop-link">Credit Cards</a></li>
+            <li><a href="../html/account.html" class="drop-link">Bank Accounts</a></li>
+            <li><a href="../html/loan.html" class="drop-link">Bank Loans</a></li>
+          </ul>
+        </li>
+        <li class="t-nav-item">
+          <a href="#" class="t-nav-link ser" id="ser"><span>Services</span><i class="fa-solid fa-chevron-down"></i></a>
+          <ul class="dropdown-list service" id="service">
+            <li><a href="../php/loanApplication.php" class="drop-link">Apply Loan</a></li>
+            <li><a href="../php/cardApplication.php" class="drop-link">Apply Credit Cards</a></li>
+            <li><a href="../html/support.html" class="drop-link">FAQ</a></li>
+          </ul>
+        </li>
+        <!-- end of dropdown list -->
+
+        <li class="t-nav-item"><a href="../html/contact.html" class="t-nav-link">Contact</a></li>
+        <li class="t-nav-item"><a href="../php/profile.php" class="t-nav-link"><i class="fa-solid fa-circle-user"></i><span>Account</span></a></li>
+      </ul>
+      </nav>
+    </header>
+    <!-- end of header -->
+
+    <!-- main section -->
+    <section class="main-section">
+      <!-- carsoule -->
+      <div class="carsoule">
+        <div class="carsoule-content">
+          <h1 class="carsoule-title">Join us to make your future a success</h1>
+          <a href="#item-02" class="carsoule-link">Discover</a>
+        </div>
+      </div>
+      <!-- end of carsoule -->
+
+      <div class="main-section-container">
+        <!-- item01 -->
+        <div class="main-container-item m-c-item01">
+          <h1 class="m-s-title">Our Services</h1>
+          <ul class="services-list">
+            <li>
+              <a href="../php/cardApplication.php" class="service-link"><i class="fa-solid fa-credit-card"></i><span>Credit cards</span></a>
+            </li>
+            <li>
+              <a href="../html/loan.html" class="service-link"><i class="fa-solid fa-hand-holding-dollar"></i><span>Loans</span></a>
+            </li>
+            <li>
+              <a href="../php/ePassBook.php" target="_blank"class="service-link"><i class="fa-solid fa-book-atlas"></i><span>ePassbook</span></a>
+            </li>
+            <li>
+              <a href="#" class="service-link"><i class="fa-solid fa-money-bill-transfer"></i><span>Transfer</span></a>
+            </li>
+            <li>
+              <a href="../html/account.html" class="service-link"><i class="fa-solid fa-circle-user"></i><span>Accounts</span></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- item 02 -->
+        <div class="main-container-item m-c-item02" id="item-02">
+          <h1 class="m-s-title">Overview</h1>
+          <div class="overview-content">
+            <div class="overview-c-item">
+              <h2>Local Trust Bank</h2>
+              <p id="m-c-para">Local Trust Bank  was founded in 1999 to introduce the new level of financial services worldwide. We are still dedicated to the success of our clients, both individual and corporate. At Gain Bank, we are guided by a common purpose to help make financial lives better by connecting clients and communities to the resources they need to be successful. We are driving growth – helping to create jobs, develop communities, foster economic mobility and address society’s biggest challenges – while managing risk and providing a return to our clients and our shareholders</p>
+            </div>
+            <div class="overview-c-item">
+              <img src="../images/logo/blue-logo-01.jpg" alt="#">
+            </div>
+          </div>
+        </div>
+
+        <!-- item 03 -->
+        <div class="main-container-item m-c-item03">
+          <h1 class="m-s-title">Open your new bank account</h1>
+          <p>We are offered various bank accounts for different age people</p>
+          <a href="../html/account.html" class="account-link">Read More</a>
+        </div>
+
+        <!-- item04 -->
+        <div class="main-container-item m-c-item04" id="credit-select">
+          <h1 class="m-s-title">Credit cards</h1>
+          <div class="card-content">
+            <!--card item 01 -->
+            <div class="card-item">
+              <img src="../images/6072743.jpg" alt="#" class="card-img">
+              <h2>Blue card</h2>
+              <ul class="card-details-list">
+                <li>
+                  <i class="fa-solid fa-calendar"></i>
+                  <span id="card-s01">Valid Period:</span>
+                  <span id="card-s02">4 years</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-file-invoice-dollar"></i>
+                  <span id="card-s01">Payment fee:</span>
+                  <span id="card-s02">5%</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-sack-dollar"></i>
+                  <span id="card-s01">Max credit:</span>
+                  <span id="card-s02">LKR.100000.00</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-percent"></i>
+                  <span id="card-s01">Cashback:</span>
+                  <span id="card-s02">5%</span>
+                </li>
+              </ul>
+              <a href="../php/cardApplication.php" target="_blank" class="card-link">Order a card</a>
+            </div>
+
+            <!--card item 02 -->
+            <div class="card-item">
+              <img src="../images/6072870.jpg" alt="#" class="card-img">
+              <h2>Black card</h2>
+              <ul class="card-details-list">
+                <li>
+                  <i class="fa-solid fa-calendar"></i>
+                  <span id="card-s01">Valid Period:</span>
+                  <span id="card-s02">6 years</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-file-invoice-dollar"></i>
+                  <span id="card-s01">Payment fee:</span>
+                  <span id="card-s02">10%</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-sack-dollar"></i>
+                  <span id="card-s01">Max credit:</span>
+                  <span id="card-s02">LKR.500000.00</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-percent"></i>
+                  <span id="card-s01">Cashback:</span>
+                  <span id="card-s02">10%</span>
+                </li>
+              </ul>
+              <a href="../php/cardApplication.php" target="_blank" class="card-link">Order a card</a>
+            </div>
+
+            <!-- card item 03 -->
+            <div class="card-item">
+              <img src="../images/6072974.jpg" alt="#" class="card-img">
+              <h2>Red card</h2>
+              <ul class="card-details-list">
+                <li>
+                  <i class="fa-solid fa-calendar"></i>
+                  <span id="card-s01">Valid Period:</span>
+                  <span id="card-s02">10 years</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-file-invoice-dollar"></i>
+                  <span id="card-s01">Payment fee:</span>
+                  <span id="card-s02">15%</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-sack-dollar"></i>
+                  <span id="card-s01">Max credit:</span>
+                  <span id="card-s02">LKR.1000000.00</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-percent"></i>
+                  <span id="card-s01">Cashback:</span>
+                  <span id="card-s02">20%</span>
+                </li>
+              </ul>
+              <a href="../php/cardApplication.php" target="_blank" class="card-link">Order a card</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- item05 -->
+        <div class="main-container-item m-c-item05">
+          <h1 class="m-s-title">Our Leaders</h1>
+
+          <div class="leader-content">
+            <!-- l-item01 -->
+            <div class="leader-item">
+              <div class="leader-profile">
+                <img src="../images/l1.jpg" alt="#" class="leader-img">
+              </div>
+              <ul class="social-list">
+                <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+              </ul>
+              <h2 class="l-name">Kosala Silva</h2>
+              <h3 class="l-job">CEO & Co-founder</h3>
+            </div>
+
+            <!-- l-item02 -->
+            <div class="leader-item">
+              <div class="leader-profile">
+                <img src="../images/l2.jpg" alt="#" class="leader-img">
+              </div>
+              <ul class="social-list">
+                <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+              </ul>
+              <h2 class="l-name">Anna Watson</h2>
+              <h3 class="l-job">Chief development officer</h3>
+            </div>
+
+            <!-- l-item03 -->
+            <div class="leader-item">
+              <div class="leader-profile">
+                <img src="../images/l3.jpg" alt="#" class="leader-img">
+              </div>
+              <ul class="social-list">
+                <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+              </ul>
+              <h2 class="l-name">Siddharth Kumar</h2>
+              <h3 class="l-job">Chief marketing officer</h3>
+            </div>
+
+            <!-- l-item04 -->
+            <div class="leader-item">
+              <div class="leader-profile">
+                <img src="../images/l4.jpg" alt="#" class="leader-img">
+              </div>
+              <ul class="social-list">
+                <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+              </ul>
+              <h2 class="l-name">Tharushi Pepera</h2>
+              <h3 class="l-job">Chief product officer</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- item06 -->
+        <div class="main-container-item m-c-item06">
+          <h1 class="m-s-title">Our Partners</h1>
+          <ul class="part-list">
+            <li><i class="fa-brands fa-cc-mastercard"></i></li>
+            <li><i class="fa-brands fa-cc-visa"></i></li>
+            <li><i class="fa-brands fa-apple-pay"></i></li>
+            <li><i class="fa-brands fa-google-pay"></i></li>
+            <li><i class="fa-brands fa-paypal"></i></li>
+            <li><i class="fa-brands fa-cc-amex"></i></li>
+          </ul>
+        </div>
+
+        <!-- item07 -->
+        <div class="main-container-item m-c-item07">
+          <h1 class="m-s-title">Find Us</h1>
+          <div class="location map" style="width:100%; height:500px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63320.41799049166!2d80.59076165548426!3d7.294629090256763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!5e0!3m2!1sen!2slk!4v1652708396669!5m2!1sen!2slk" width="100%"  height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- end of main section -->
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="f-c-item">
+          <div class="f-c-logo">
+            <img src="../images/logo/blue-logo-02.jpg" alt="logo" class="f-logo" style="width:150px;">
+          </div>
+          <p id="f-para">We are a reliable and fast-growing outsourcing call center company  that works with clients from all over the world.</p>
+        </div>
+        <div class="f-c-item">
+          <ul class="f-l-list">
+            <li><a href="./#m-cont">Home</a></li>
+            <li><a href="./#credit-select">Credit Cards</a></li>
+            <li><a href="./account.html">Bank Accounts</a></li>
+            <li><a href="./loan.html">Bank Loans</a></li>
+            <li><a href="./support.html">FAQ</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="f-c-item">
+          <h2>Contact Us</h2>
+          <ul class="f-list">
+            <li><i class="fa-solid fa-location-dot"></i><span>Royal Junction Park, Kandy</span></li>
+            <li><i class="fa-solid fa-phone"></i><span>+94 112356234</span></li>
+            <li><i class="fa-solid fa-envelope"></i><span>localTrust@info.lk</span></li>
+          </ul>
+        </div>
+        <div class="f-c-item">
+          <h2>Get least updates</h2>
+          <div class="f-sub">
+            <input type="email" name="email" id="f-input" placeholder="Enter your email">
+            <button type="submit" id="f-btn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <ul class="f-apps-list">
+        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+        <li><a href="https://lk.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+      </ul>
+      <p class="copy-right" style="color:#fff;">&copy;copyright &copy;Local Trust Bank(PVT).LTD <span id="cpy-date"></span> .All rights reserved</p>
+    </footer>
+    <!-- end of footer -->
+    <!-- feedback  form -->
+    <div class="popup-feed">
+      <button class="btn feed-link">
+        <span>Feedback</span>
+        <i class="fas fa-comments"></i>
+      </button>
+    </div>
+
+    <section class="feedback-sec">
+      <aside class="feedback-content">
+        <button class="btn close-btn f-c-btn"><i class="fa-solid fa-xmark"></i></button>
+        <h1>Local Trust Bank</h1>
+        <div class="f-f-content">
+          <form action="../php/feedback.php" class="f-f-form" method="post">
+            <div class="f-f-item">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="f-f-email" placeholder="example123@info.com">
+            </div>           
+            <div class="f-f-item">
+              <label for="message">What do you have to say about our services?</label>
+              <textarea name="message" id="f-f-message" placeholder="Enter your suggestions"></textarea>
+            </div>
+            <button type="submit" class="btn f-s-btn" name="submit"><span>Send feedback</span><i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </aside>
+    </section>
+    <!-- end of feedback  form -->
+
+    <a href="#m-cont" class="top-link"><i class="fa-solid fa-circle-chevron-up"></i></a>
+  </main>
+  <script src="../JS/script.js"></script>
+  </script>
+</body>
+</html>
